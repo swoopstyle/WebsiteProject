@@ -1,0 +1,480 @@
+/* link rel="stylesheet" type="text/css" href="main.css" */
+
+.aboutmepage {
+    text-align: center; 
+    padding: 75px;
+    margin: 75px;
+    border-style: solid; 
+    background-color: white;
+
+}
+
+body { 
+    background-color:black;
+}
+
+.footer-center {
+    background-color: black;
+}
+
+.aboutmeheading1 {
+    background-color: white;
+    font-size: 50px;
+}
+
+.aboutme1 {
+    background-color: white;
+    /* padding: 50px; */
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.aboutme { 
+    background-color: white;
+    /* padding: 50px; */
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.large {
+    font-size: 25px;
+}
+
+.quote {
+    font-size: 30px;
+    background-color: white;
+}
+
+.nav {
+    color: white;
+}
+
+.footer-copytrader-mark {
+    color: coral;
+}
+
+/* .makemeblack {
+    background-color: black;
+} */
+
+.footer-wheninspiration-hits {
+    color: coral;
+}
+
+.fa, .fa-phone {
+    color: black;
+}
+
+.unit1heading1 {
+    font-size: 35px;
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.unit1heading2 {
+    font-size: 28px;
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.unit1heading3 {
+    font-size: 20px;
+    color: coral;
+    border: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.unit1answer {
+    font-size: 20px;
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.unit1 {
+    font-size:1rem;
+    background: url(borabora.jpg);
+    background-repeat: no-repeat;
+    background-size: 130% !important;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+.unit1body {
+    background:url(borabora.jpg);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.index {
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+}
+
+.unit1 {
+     background: url(borabora.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+}
+
+.unit2 {
+    background: url(camelride.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+   background-color: white;
+}
+
+.aboutme {
+    background-color: white;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.aboutmesafariwall {
+    background: url(safariwall.jpg);
+}
+
+
+.background-aboutme, .background-unit1 {
+    text-align: center;
+}
+
+
+header{
+	text-align: center;
+	padding-top: 100px;
+    margin-top: 20%;
+    margin-bottom:20%;
+}
+
+
+header h1{
+    font-family: 'Arapey', serif;
+    font-size: 60px;
+    color: black;
+}
+
+header h3{
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+label.logo {
+    color: white;
+    font-size: 30%;
+    line-height: 80px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px; 
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    background: coral;
+    transition: .5s;
+}
+
+
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: black;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 20px;
+    margin-top: 80px;
+    margin-bottom: none;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+    font-family: 'Arapey', serif;
+    font-size: 30px;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 20%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: coral;
+}
+
+.footer-distributed .meowdown{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.paragraph{
+    color: white;
+    font-weight: lighter;
+}
+
+
+/* Responsive app */
+
+@media only screen and (max-width: 500px) {
+    .index {
+        font-size:1rem;
+        background: url(background.png);
+        background-repeat: no-repeat;
+        background-size: 130% !important;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: black;
+    }
+
+    .unit1, .unit2 {
+        background-size: cover;
+        background-color: #E5E5E5;
+    }
+
+    .background-aboutme, .background {
+        text-align: center;
+    }
+    
+    .background-aboutme  img, .background- img{
+        text-align: center;
+        max-width:100%;
+        height:auto;
+    }
+    
+    label.logo img {
+        height: 30px;
+        margin-top: 25px;
+    }
+    
+    nav ul li a {
+        color: white;
+        font-size: 13px;
+        padding: 7px;
+        border-radius: 3px; 
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h3 {
+        font-size: 20px;
+    }
+
+    .footer-distributed h3 {
+        font-size: 19px;
+    }
+    
+    .footer-distributed p{
+        font-size: 14px;
+    }
+
+    .footer-company-about {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
